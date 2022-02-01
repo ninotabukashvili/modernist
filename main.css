@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.menu{
+    display:flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-between;
+
+}
+.menu-item{
+    padding: 12px 20px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.menu-item:hover{
+    background-color:  #76c38f;
+    border-radius: 10px;
+
+}
+.ServiceTitleItems:hover{
+    color:white;
+    background-color: #76c38f;
+
+}
+.container{
+    width:1074px;
+    margin: auto;
+}
+.work-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+}
+.item:hover .LOREM {
+    height: 0;
+    padding: 0;
+}
+.item{
+    width:290px;
+    height:190px;
+    margin-top: 15px;
+    background-color: #353535;
+    color: white;
+    border: 5px solid white;
+    position: relative;
+    cursor: pointer;
+}
+
+.work-section{
+    background-color:#660000;
+    padding: 32px 0;
+}
+.dark{
+    background-color: #290000;
+    padding-bottom: 50px;
+}
+.logo{
+    color:white;
+}
+.o{
+    background-color: #333333;
+    border-radius: 100%;
+    border: 25px solid #6b6b6b;
+    width: 380px;
+    height: 380px;
+    
+}
+.rmhbutton{
+    background-color: #76c38f;
+    border: none;
+    font-size: 12px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    width:147px;
+    color: white;
+}
+.slider-text{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    gap: 24px;
+}
+.SliderH1{
+    color:white;
+    font-size: 46px;
+    padding-top: 70px;
+}
+
+.slider-text p{
+    color: white;
+    font-size: 14px;
+}
+.LeftArow{
+    align-self:center;
+}
+.RightArow{
+    align-self:center;
+}
+.ServiceTitle{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.SliderWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.Menuaja{
+    display: flex;
+    justify-content: space-between;
+}
+.stt{
+   font-size: 12px;
+}
+.stth2{
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+}
+.ServiceTitleItems{
+    width: 225px;
+    background-color: white;
+    padding: 20px 32px;
+    cursor: pointer;
+}
+.latestWorkP{
+    width: 100%;
+    height: 3px;
+    background-color: #303030;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latestWork{
+    border-radius: 11px;
+    background-color: #303030;
+    color: white;
+    width: 253px;
+    height: 46px;
+    font-size: 32px;
+    text-align: center;
+}
+.LOREM{
+    background-color: #151515;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    padding: 10px 0;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.I{
+    width: 225px;
+}
+h4{
+    color: #76c38f;
+}
+.footerItem{
+    display: flex;
+    padding-top: 39px;
+    padding-bottom: 58px;
+    gap: 20px;
+}
+.FTB{
+    font-size: 16px;
+    color: white;
+}
+.admin{
+    color: #76c38f;
+}
+.adminin{
+    padding-top: 16px;
+    color: white;
+    font-size: 10px;
+}
+footer{
+    background-color: #303030;
+}
+.friday{
+    color: white;
+    padding-top: 12px;
+    font-size: 10px;
+    padding-bottom: 19px;
+}
+.text1{
+    font-size: 13px;
+    color: white;
+}
+.RM{
+    color:#76c38f;
+    font-size: 14px;
+    padding-top: 16px;
+    padding-bottom: 95px;
+}
+.PT{
+    padding-top: 30px;
+}
+
+.QL{
+    font-size: 16px;
+    color: white;
+}   
+.list{
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 34px;
+    color:#76c38f;
+    padding-top: 20px;
+}
+.LT{
+    font-size: 16px;
+    color: white;
+}
+
+.txt1{
+    padding-top: 40px;
+    padding-bottom: 28px;
+    font-size: 13px;
+    color: white;
+}
+.txt2{
+    color: white;
+    font-size: 13px;
+}
+.CU{
+    color: white;
+    font-size: 16px;
+}
+.inPuTDiv{
+    display: flex;
+    flex-direction: column;    
+}
+input{
+    width: 225px;
+    height: 35px;
+    border-radius: 11px;
+    background-color: #222222;
+    border: none;
+    padding-left: 10px;
+}
+.inputDivItems{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.lastButton{
+    background-color: #76c38f;
+    color: 303030;
+    border: none;
+    font-size: 12px;
+    width: 75px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 12px;
+}
+textarea{
+    border-radius: 11px;
+    background-color: #222222;
+    padding-left:10px;
+    padding-top: 10px;
+}
